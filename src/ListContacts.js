@@ -20,6 +20,7 @@ class ListContacts extends Component {
 	clearQuery = () => {
 		this.setState({ query: '' })
 	}
+	
 	render() {
 		const { contacts, onDeleteContact } = this.props
 		const { query } = this.state
